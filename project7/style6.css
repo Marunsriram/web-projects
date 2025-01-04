@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sixtyfour", serif;
+   
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1{
+    color: grey;
+    font-size: 100px;
+    font-weight: 1200;
+    cursor: pointer;
+    transition: 0.5s;
+    animation: neon 1s ease infinite;
+}
+/*h1:hover{
+    color: white;
+    text-shadow: 0 0 5px #46B1C9,
+    0 0 5px #46B1C9,
+    0 0 10px #46B1C9,
+    0 0 15px #46B1C9,
+    0 0 20px #46B1C9;
+}*/
+
+@keyframes neon {
+    from{
+        color: grey;
+    }
+    to{
+        color: white;
+        text-shadow: 0 0 5px #46B1C9,
+        0 0 5px #46B1C9,
+        0 0 15px #46B1C9,
+        0 0 20px #46B1C9,
+        0 0 55px #46B1C9;
+    }
+}
