@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
+a{
+    color: red;
+}
+header{
+    background-color: #fe017b;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#List{
+    background-color: #fe017b;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+#contact{
+    text-align: center;
+    color: black;;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+    
+}
+
+#contact h4{
+    font-size: small;
+    font-weight: 100;
+  
+}
+
+#search{
+    padding-top: 10px 0px;
+}
+
+#search input{
+    display: block;
+}
+
+#im1{
+    height: 100px;
+    width: 100px;
+   
+
+}
+
+#Movies li{
+         display:flex;
+         padding:10px; 
+          
+}
+
+#nav{
+    background-color: rgba(255, 217, 0, 0.292);
+    height: 40px;
+    padding: 10px;
+    word-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background-color: #fe017b;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;}
+
+#name{
+    display: block;
+    padding-left: 15px;
+    
+}
+

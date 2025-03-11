@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: digital-7;
+    src: url(digital-7/digital-7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    user-select: none;
+    background-color:#535c68 ;
+    
+}
+
+h1{
+    color:#30336b ;
+    font-family: "Manrope", serif;
+    font-size: 70px;
+}
+
+h1:hover{
+    color: white44+++++++++++;
+    text-shadow: 0 0 10px #30336b,
+    0 0 25px #30336b,
+    0 0 30px #30336b,
+    0 0 65px #30336b,
+    0 0 100px #30336b;}
+
+.frame{
+    border: 20px solid #686de0;
+    height: 200px;
+    width: 400px;
+    background-color: #051824;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 160px;
+    font-family: digital-7;
+    color:#6154f0;
+    
+    
+    
+}
+
+.clock:hover{
+    color:white;
+    text-shadow: 0 0 20px #16114f,0 0 50px #16114f,0 0 80px #16114f,0 0 120px #16114f;
+}

@@ -1,4 +1,3 @@
-css/style.css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
@@ -147,14 +146,3 @@ height: 30px;
   background-color: #FF8401;
   font-size: 16px;
 }
-This script is for a product image slider and quantity selector.
-
-
-The script starts by fetching all the necessary elements from the HTML page, such as the product images, the main image div, and the plus and minus buttons for the quantity selector.
-
-The script then adds event listeners to each product image, so that when an image is clicked, the script updates the current image ID and sets the active class to the clicked image. The active class is used to indicate which image is currently selected and it is used for styling purposes. The moveImage() function is called when an image is clicked, this function calculates the width of the image and also the number of images that need to be moved, it then translate the main image div according to that.
-
-
-The script also adds event listeners to the plus and minus buttons, so that when a button is clicked, the script updates the quantity value accordingly. The minus button decreases the value by 1 and the plus button increases the value by 1, but the value can't be less than 0 or greater than 5.
-
-Overall, this script allows users to navigate through different product images and also allows the user to select the quantity of the product. This script can be used in e-commerce websites, online shops, and other web applications where a product image slider and quantity selector is required.
